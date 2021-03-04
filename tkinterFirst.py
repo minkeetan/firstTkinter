@@ -30,6 +30,7 @@ exitButton.grid(row = 1, column = 0, sticky = W, padx=10, ipadx=2, pady=300)
 
 
 window.geometry("800x400")
+window.resizable(0,0)
 
 window.mainloop()
 
