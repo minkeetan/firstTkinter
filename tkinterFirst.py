@@ -10,7 +10,7 @@ def click_exitButton():
     exit()
 
 window = Tk()
-window.wm_title("VCU Parser")
+window.title("VCU Parser")
 
 folderButton = Button(window, text="open folder", command=askDirectory)
 folderButton.place(x=500, y=350)
